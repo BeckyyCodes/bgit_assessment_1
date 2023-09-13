@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: lightblue;
+    color: rgb(23, 69, 85);
+}
+
+/* nav links styling */
+nav {
+    margin: 2rem ;
+}
+nav ul {
+    display: flex;
+    gap: 3rem;
+    justify-content: flex-end;
+}
+
+nav ul li {
+    list-style-type: none;
+    text-transform: capitalize;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    background-color: aquamarine;
+    padding: 1rem;
+    transition: all 400ms ease-in-out;
+    border-radius: 2rem;
+}
+
+
+/* works only on tablet and phone */
+@media only screen and (max-width: 600px) {
+    nav {
+        margin: 0;
+    }
+    nav ul {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: rgb(43, 82, 95);
+        color: whitesmoke;
+        gap: 1rem;
+        padding: 1rem;
+    }
+}
+
+.intro {
+    text-align: center;
+}
+
+.intro p {
+    padding: .5rem;
+}
+
+/* image styling */
+img {
+    height: 100vh;
+    width: 100vw;
+    margin: 1rem;
+    object-fit: cover;
+}

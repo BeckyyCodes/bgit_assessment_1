@@ -1,0 +1,21 @@
+QUESTION ONE
+HTML means hypertext markup language. it is a programming language used to describe the struture of a website.
+
+QUESTION TWO 
+The box model is a container that contains multiple properties. it is where text, images or other html elements are displayed.
+ these are surrounded by padding, a border, and a margin depending on what the developer intends to use.
+
+QUESTION THREE
+Inline elements are elements that cover only the space that is bounded by the tags in the HTML element, that is, they only occupy the sufficient width required. examples are <span>, <a>, <label>, <img>, etc. 
+Block level elements occupy the full width available and always start in a line. examples of block level elements are <p>, <div>, <nav>, <table>, etc.
+
+QUESTION FOUR
+The purpose of CSS media queries is to specify how a document is to be presented on different screen. they allow the creation of different layouts depending on the size of the viewport.
+an example of how they are used in presented below:
+
+@media only screen and (max-width) {
+
+}
+
+QUESTION FIVE 
+Semantic HTML describes clearly their meaning in human and machine-readable way. they provide meaning to the content that they contain. Tags such as <header>, <footer>, <article>, <main>, and <time> are all examples of Semantic element
