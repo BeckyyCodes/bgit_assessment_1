@@ -36,22 +36,7 @@ nav ul li a:hover {
 }
 
 
-/* works only on tablet and phone */
-@media only screen and (max-width: 600px) {
-    nav {
-        margin: 0;
-    }
-    nav ul {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        background: rgb(43, 82, 95);
-        color: whitesmoke;
-        gap: 1rem;
-        padding: 1rem;
-    }
-}
-
+/* styling of the div */
 .intro {
     text-align: center;
 }
@@ -66,4 +51,21 @@ img {
     width: 100vw;
     margin: 1rem;
     object-fit: cover;
+}
+
+
+/* works only on tablet and phone */
+@media only screen and (max-width: 600px) {
+    nav {
+        margin: 0;
+    }
+    nav ul {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: rgb(43, 82, 95);
+        color: whitesmoke;
+        gap: 1rem;
+        padding: 1rem;
+    }
 }
